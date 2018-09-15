@@ -1,0 +1,15 @@
+spring:
+  name: employee_management
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/meenakshi
+    username: root
+    password: angul
+    testWhileIdle : true
+    validationQuery : SELECT 1
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+server:
+ port: 9999
