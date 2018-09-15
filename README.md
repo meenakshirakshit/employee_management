@@ -12,6 +12,7 @@ API Details
 Get All employee details
 
 URI:http://localhost:9999/employee_management/api/v1/employee/
+
 HTTP METHOD: GET
 
 Sample Response:
@@ -40,7 +41,9 @@ Sample Response:
  Get employee Details by Id:
 
 URI:http://localhost:9999/employee_management/api/v1/employee/{SAP_ID}
+
 HTTP METHOD: GET
+
 Sample: http://localhost:9999/employee_management/api/v1/employee/1
 
  Sample Response:
@@ -61,8 +64,11 @@ Sample: http://localhost:9999/employee_management/api/v1/employee/1
  Create Employee:
 
  URI:http://localhost:9999/employee_management/api/v1/employee/
+ 
  HTTP Method: POST
+ 
  Content-Type :application/json;charset=UTF-8
+ 
  Request Body sample:
  
      {
@@ -89,7 +95,9 @@ Sample: http://localhost:9999/employee_management/api/v1/employee/1
 Update Employee
 
 URI:http://localhost:9999/employee_management/api/v1/employee/{SAP_ID}
+
 HTTP Method:PUT
+
 Content-Type :application/json;charset=UTF-8
 
 Request Body Sample:
@@ -120,4 +128,5 @@ Request Body Sample:
 Delete Employee
 
 URI: http://localhost:9999/employee_management/api/v1/employee/{SAP_ID}
+
 HTTP Method:DELETE
