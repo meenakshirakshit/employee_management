@@ -1,10 +1,11 @@
 # employee_management
 Employee CURD Operation(Spring boot+JPA+MYSQL)
 
-Application: employee_management
-Author : Meenakshi Rakshit
+# Application: employee_management
 
-Start Application : mvn clean spring-boot:run
+# Author : Meenakshi Rakshit
+
+# Start Application : mvn clean spring-boot:run
 
 API Details
 ==================
